@@ -6,11 +6,11 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import scale
 
 
-X_train = pd.read_csv('data/loan_prediction-1/X_train.csv')
-Y_train = pd.read_csv('data/loan_prediction-1/Y_train.csv')
+X_train = pd.read_csv('data/X_train.csv')
+Y_train = pd.read_csv('data/Y_train.csv')
 
-X_test = pd.read_csv('data/loan_prediction-1/X_test.csv')
-Y_test = pd.read_csv('data/loan_prediction-1/Y_test.csv')
+X_test = pd.read_csv('data/X_test.csv')
+Y_test = pd.read_csv('data/Y_test.csv')
 
 print X_train.head()
 
